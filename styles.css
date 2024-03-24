@@ -41,6 +41,7 @@
             /*btn-botonsalir*/
 
             .botonsalir {
+                min-width: 100px;
                 background: #039be5;
                 color: #ffffff;
                 border-radius: 25px;
