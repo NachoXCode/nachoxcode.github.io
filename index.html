@@ -3,7 +3,28 @@
     <head>
         <title>
             ¿Que miras?
-        </title>>
+        </title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&display=swap')
+            
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: 'Nunito', sans-serif;
+                font-weight: 600;
+            }
+
+            .container {
+                min-height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
     </head>
     <header>
         <center>
@@ -15,13 +36,13 @@
         </center>
     </header>
     <body>
-        <center>
-            <p>
+        <div class="container">
+            <div class="buttons">
                 <a href="https://www.google.com/" class="botongoogle">
                     Salir
                 </a>
-            </p>
-        </center>
+            </div>
+        </div>
         <center>
             <p>
                 Puede parecer algo estupido pero esta pagina no tiene sentido ni proposito alguno, esta hecha con el unico proposito de ser algo inutil puesto en mis perfiles de las redes sociales, igualmente, si te tomaste la molestia de acceder, gracias por usar esos segundos de tu vida en ver esto ❤️
@@ -34,7 +55,7 @@
         </center>
         <center>
             <p>
-                <a href="pagina.txt">
+                <a href="pagina.txt" class="pagina">
                     Aqui en este link
                 </a>
             </p>
