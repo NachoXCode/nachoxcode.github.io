@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "vue-template-compiler": "^2.7.16",
+    "vuepress-bar": "^0.4.5"
+  }
+}
