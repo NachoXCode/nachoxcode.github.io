@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "root:build": "vuepress build ."
+    "root:build": "vuepress build .",
+    "vuepress:install": "pnpm add vuepress@next vue"
   },
   "dependencies": {
     "vue-template-compiler": "^2.7.16",
