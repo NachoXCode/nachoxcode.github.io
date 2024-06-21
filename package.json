@@ -1,7 +1,7 @@
 {
   "scripts": {
     "root:build": "vuepress build .",
-    "vuepress:install": "pnpm add vuepress@next vue"
+    "vuepress:install": "pnpm add vuepress@next vue",
     "vuepress:setup": "pnpm add -D @vuepress/bundler-webpack@next @vuepress/theme-default@next"
   },
   "dependencies": {
