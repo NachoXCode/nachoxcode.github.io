@@ -1,12 +1,16 @@
 import { webpackBundler } from '@vuepress/bundler-webpack'
+import { defineUserConfig } from 'vuepress'
+
+export default defineUserConfig({
+  bundler: webpackBundler({
+    postcss: {},
+    vue: {},
+  }),
+}),
 
 module.exports = {
     title: 'n4c´s Webpage',
     description: 'the official webpage for n4c´s projects (made on VuePress)',
-	bundler: webpackBundler({
-    	postcss: {},
-    	vue: {},
-	}),
     watch: {
 	    $page(newPage, oldPage) {
 	      if (newPage.key !== oldPage.key) {
