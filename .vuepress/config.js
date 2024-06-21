@@ -6,7 +6,7 @@ export default defineUserConfig({
     postcss: {},
     vue: {},
   }),
-}),
+});
 
 module.exports = {
     title: 'n4c´s Webpage',
