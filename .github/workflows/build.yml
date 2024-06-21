@@ -36,6 +36,10 @@ jobs:
       # run install script
       - name: Install VuePress
         run: pnpm vuepress:install
+
+      # run install script
+      - name: Install VuePress
+        run: pnpm vuepress:setup
         
       # run build script
       - name: Build VuePress site
