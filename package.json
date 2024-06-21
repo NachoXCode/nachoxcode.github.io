@@ -1,9 +1,9 @@
 {
+  "scripts": {
+    "root:build": "vuepress build ."
+  },
   "dependencies": {
     "vue-template-compiler": "^2.7.16",
     "vuepress-bar": "^0.4.5"
-  }
-  "scripts": {
-    "root:build": "vuepress build ."
   }
 }
